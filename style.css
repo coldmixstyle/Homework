@@ -1,0 +1,44 @@
+.header{
+    background-color:#ffffff;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-top:10px;
+}
+
+.logo{
+    background-color: #ffffff;
+display: flex;
+align-items: center;
+margin: left 80px;
+gap: 60px;
+}
+.menu{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction:row;
+    margin-left:250px;
+    gap: 10px;
+    font-family:benimFontum;
+    margin-top:100px;
+}
+.container > img{
+    display: flex;
+    justify-content: right;
+    align-items:right;
+    margin-left:50px;
+    margin-top: 300px;
+    width: 100%;
+}
+.right{
+background-color: #ffffff;
+display: flex;
+margin-left:100px;
+gap:30px;
+}
+
+@font-face {
+    font-family:benimFontum;
+    src:url(./fonts/Quicksand-Regular.ttf) ;
+}
+
